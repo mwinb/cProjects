@@ -1,0 +1,15 @@
+Character Input and Output
+text stream:
+	A sequence of characters divided into lines; 
+	Each line cosists of zero of more characters followed by a new line;
+Functions:
+     getchar()
+		reads next input character from a text stream and returns value. 
+     putchar(char)
+		prints the contents of the integer vairable c as a character;
+1.5.1 File Copying
+	ex:
+		read char
+		while (char <= end-of-file)
+			output char
+			read a char
